@@ -4,9 +4,11 @@ title: Abusing JavaScript Frameworks
 date: 2009-12-03 17:36:53 +00:00
 description: "I have recently come to realise that JavaScript libraries are an easy fall back for front-end problems which can't be solved quickly."
 ---
+h1. {{ page.title }}
+
 Tools like <a href="http://jquery.com/">jQuery</a> and <a href="http://mootools.net/">MooTools</a> make traversing and manipulating the DOM incredibly easy. So easy that you can get carried away with it sometimes. I have fallen down this trap more than once in my career as a web developer.</p>
 
-Here's an excerpt from an article I stumbled across entitled <em><a href="http://pinoytech.org/blog/post/Add-Icons-to-External-Links-with-Mootools-and-CSS">Add Icons to External Links with Mootools and CSS</a></em>.
+Here's an excerpt from an article I stumbled across entitled <a href="http://pinoytech.org/blog/post/Add-Icons-to-External-Links-with-Mootools-and-CSS">Add Icons to External Links with Mootools and CSS</a>.
 
 {% highlight javascript %}
 
