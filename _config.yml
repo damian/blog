@@ -1,0 +1,5 @@
+auto: true
+server: true
+server_port: 3001
+pygments: true
+lsi: false

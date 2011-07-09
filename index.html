@@ -1,0 +1,23 @@
+---
+layout: default
+title: Web Developer based in Newcastle - Damian Nicholson specialises in both Drupal and Ruby on Rails development
+---
+
+<div class="pane me">
+  <img src="/images/damian.png">
+</div>
+
+<h2 class="pane intro tk-museo-slab">
+  Hello! I'm Damian, a web developer based in Newcastle. I specialise and write about Drupal, Ruby on Rails, front-end development and other stuff on my <a href="/blog">blog</a>.<br class="clearfix" />
+</h2>
+
+<div class="clearfix"></div>
+
+<h3 class="latest-posts">Latest blog posts</h3>
+<ul class="posts homepage-posts">
+  {% for post in site.posts limit:3 %}
+    <li>
+      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

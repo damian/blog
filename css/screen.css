@@ -1,0 +1,104 @@
+body {
+  font: 20px "Adobe Garamond Pro",serif;
+  background: #fff;
+  color: #666;
+  border-top: 4px solid #61CDF5
+}
+
+.site {
+  width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;  
+}
+
+a:link,
+a:active,
+a:visited {
+  background-color: #FF9;
+  text-decoration: none;
+  color: #444;
+}
+
+.site h1 a {
+  background-color: inherit;
+}
+
+.pane {
+  float: left;
+  width: 420px;
+}
+
+.me img {
+  border: 1px solid #eaeaea;
+  padding: 3px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: museo-slab-1,museo-slab-2,serif;
+}
+
+h2 {
+  margin-top: 1.2em;
+  margin-bottom: 0.7em;
+  font-size: 1.6em;
+}
+
+h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.7em;
+  font-size: 1.3em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.intro {
+  font-size: 1.2em;
+  margin: 0 0 0 40px;
+  color: #000;
+  line-height: 1.6em;
+}
+
+header {
+  padding: 20px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px dotted #eaeaea;
+}
+
+header li {
+  display: inline;
+}
+
+.posts span {
+  font-family: "American Typewriter", "Courier New", monospace;
+  font-size: 90%;
+  font-weight: lighter;
+  width: 115px;
+  display: inline-block;
+}
+
+.posts li {
+  line-height: 40px;
+}
+
+.posts li span + a {
+  margin-left: 10px;
+}
+
+.contact {
+  float: right;
+}
+
+.contact li {
+  clear: right;
+  float: right;
+}
+
+.latest-posts {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dotted #eaeaea;
+}

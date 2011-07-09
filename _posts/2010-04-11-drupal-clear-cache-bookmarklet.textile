@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: Drupal Clear Cache Bookmarklet
+date: 2010-04-11 20:15:33 +01:00
+description: "Because clearing the cache tables in Drupal is something I seem to be constantly doing, I wrote a small JavaScript bookmarklet which does it for me!"
+---
+<p>Because I haven't got round to playing with <a href="http://drupal.org/project/drush">Drush</a> yet, I decided to throw together a bookmarklet to clear Drupal's cache.</p>
+
+<p>You can check it out on <a href="http://gist.github.com/362910">gist</a> or alternatively you can click and drag the following link to your toolbar.</p>
+
+<p><a href="javascript:window.location = document.location.protocol + '//' + document.location.host + '/admin_menu/flush-cache?destination=' + document.location.pathname.substring(1);">Clear cache</a></p>
+
+<p><strong>Note:</strong> The snippet is dependent on using <a href="http://drupal.org/project/admin_menu">Admin Menu</a>.</p>

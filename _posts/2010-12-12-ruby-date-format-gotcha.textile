@@ -1,0 +1,36 @@
+--- 
+layout: post
+title: Ruby Date format gotcha
+date: 2010-12-12 22:54:59 +00:00
+description: "I recently upgraded a Rails application that I've been working on from version 2.3.8 to 3.0.3. Since the newer releases of Rails support Ruby 1.9, I thought this would be an ideal opportunity to take advantage of the performance improvements both these updates provide."
+---
+h1. {{ page.title }}
+
+Here's a little gotcha that I came across when parsing Date strings for insertion into a mysql date field.
+
+{% highlight ruby %}
+
+puts Date.parse('12/10/2010')
+puts Date.parse('12/1/2010')
+
+{% endhighlight %}
+
+In Ruby 1.8.7 you'll get the following output:
+
+{% highlight ruby %}
+
+2010-12-10
+2010-12-01
+
+{% endhighlight %}
+
+Though in Ruby 1.9.2 you'll get this:
+
+{% highlight ruby %}
+
+2010-10-12
+2010-01-12
+
+{% endhighlight %}
+
+A little Ruby date format gotcha to look out for, as it took me a little time to hunt this sucker down.

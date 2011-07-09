@@ -1,0 +1,13 @@
+--- 
+layout: post
+title: TextMate CSS Colour Picker
+date: 2009-12-13 17:33:08 +00:00
+description: A quick tip for those who use TextMate to wrangle their CSS.
+---
+h1. {{ page.title }}
+
+Being a heavy mac user, I'm always in my favourite text editor - <a href="http://macromates.com/">TextMate</a>. Here's a tip for when working with colour in a CSS file. This shortcut brings up a real handy colour picker.
+
+<p style="text-align: center;"><strong>⌘</strong> + <strong>⇧</strong> + <strong>c</strong></p>
+
+Once a colour has been selected, the corresponding hex code is placed at the current cursor position. Definately one worth knowing in my opinion!</p>

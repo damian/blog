@@ -1,0 +1,24 @@
+--- 
+layout: post
+title: Nginx rewrite rule
+date: 2010-11-01 17:14:41 +00:00
+description: A snippet of my nginx config file showing how to rewrite all urls from www.yourdomain.com to yourdomain.com.
+---
+<p>A snippet of my <a href="http://en.wikipedia.org/wiki/Nginx">nginx</a> config file showing how to rewrite all urls from www.yourdomain.com to yourdomain.com.</p>
+
+<p>Very simple, but worth knowing if opting for nginx over <a href="http://www.apache.org/">apache</a>.</p>
+
+<code lang="terminal">
+server {
+  listen 80;
+  server_name www.damiannicholson.com;
+  rewrite ^(.*) http://damiannicholson.com$1 permanent;
+}
+
+
+server {
+  listen 80;
+  server_name damiannicholson.com;
+...
+}
+</code>

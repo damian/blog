@@ -1,0 +1,21 @@
+--- 
+layout: post
+title: Google map api with ym4r
+date: 2010-11-02
+description: "I hit an issue earlier today using the ym4r plugin. As usual, the application on my local machine functioned perfectly, but upon deploying it to the live server I hit a snag."
+---
+<p>In development, the application was working fine. And because the <a href="http://ym4r.rubyforge.org/">ym4r plugin</a> has yet to implement the Google maps api version 3, I made sure to include the appropriate api key for the domain in the config.</p>
+
+<p>In production however, the page was failing. Fortunately <a href="http://hoptoadapp.com">Hoptoad</a> alerted me of the following error - <strong>Ym4r::GmPlugin::AmbiguousGMapsAPIKeyException</strong>.</p>
+
+<p>It turns out that ym4r was having difficulty choosing a specific host in my gmaps_api_key.yml file, as I had multiple set up for the various domains the site is hosted on. To rectify this I ended up changing the declaration at the top of my layout file, which loads the google maps api into the page, from
+
+<code lang="rhtml">
+<%= GMap.header %>
+</code>
+
+<p>to</p>
+
+<code lang="rhtml">
+<%= GMap.header(:with_vml => false, :host => request.host) %>
+</code>
