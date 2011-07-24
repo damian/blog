@@ -119,5 +119,16 @@ article img {
 #carbonads-container {
   margin-left: 20px;
 }
-
 #carbonads-container a { background: none; }
+
+footer {
+  padding: 20px 0;
+}
+
+footer .rss {
+  display: block;
+  text-indent: -9999px;
+  background: transparent url(../images/rss.png) no-repeat 0 0;
+  width: 24px;
+  height: 24px;
+}
