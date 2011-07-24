@@ -14,10 +14,13 @@ title: Web Developer based in Newcastle - Damian Nicholson specialises in both D
 <div class="clearfix"></div>
 
 <h3 class="latest-posts">Latest blog posts</h3>
-<ul class="posts homepage-posts">
+<ul class="pane me posts homepage-posts">
   {% for post in site.posts limit:3 %}
     <li>
       <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
+<div class="pane" id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script type="text/javascript">var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = "http://engine.carbonads.com/z/12105/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+

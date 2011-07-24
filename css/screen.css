@@ -1,12 +1,13 @@
 body {
-  font: 20px "Adobe Garamond Pro",serif;
+  font: 16px Georgia,serif;
   background: #fff;
   color: #666;
-  border-top: 4px solid #61CDF5
+  border-top: 4px solid #61CDF5;
+  text-rendering: optimizeLegibility;
 }
 
 .site {
-  width: 960px;
+  width: 760px;
   padding: 0 10px;
   margin: 0 auto;  
 }
@@ -25,39 +26,40 @@ a:visited {
 
 .pane {
   float: left;
+  width: 320px;
+}
+
+.me {
   width: 420px;
 }
 
 .me img {
   border: 1px solid #eaeaea;
-  padding: 3px;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .25);
 }
 
 h1,
 h2,
 h3 {
   font-family: museo-slab-1,museo-slab-2,serif;
-}
-
-h2 {
   margin-top: 1.2em;
   margin-bottom: 0.7em;
-  font-size: 1.6em;
 }
 
-h3 {
-  margin-top: 1.2em;
-  margin-bottom: 0.7em;
-  font-size: 1.3em;
-}
+h1 { font-size: 1.8em; margin-top: 0; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.2em; }
 
-p {
-  margin: 1em 0;
-}
+p { margin: 1em 0; }
+p strong { font-family: Helvetica Neue; color: #444; }
 
 .intro {
   font-size: 1.2em;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 20px;
   color: #000;
   line-height: 1.6em;
 }
@@ -74,18 +76,12 @@ header li {
 
 .posts span {
   font-family: "American Typewriter", "Courier New", monospace;
-  font-size: 90%;
   font-weight: lighter;
-  width: 115px;
   display: inline-block;
 }
 
 .posts li {
-  line-height: 40px;
-}
-
-.posts li span + a {
-  margin-left: 10px;
+  line-height: 35px;
 }
 
 .contact {
@@ -102,3 +98,26 @@ header li {
   padding-top: 20px;
   border-top: 1px dotted #eaeaea;
 }
+
+article {
+  line-height: 24px;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+article img {
+  border: 1px solid #eaeaea;
+  padding: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .25);
+}
+
+#carbonads-container {
+  margin-left: 20px;
+}
+
+#carbonads-container a { background: none; }
