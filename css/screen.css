@@ -146,9 +146,7 @@ article p code {
   border-radius: 3px;
 }
 
-#carbonads-container {
-  margin-left: 20px;
-}
+#carbonads-container { margin-left: 20px; }
 #carbonads-container a { background: none; }
 
 footer {
