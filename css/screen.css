@@ -137,6 +137,15 @@ article blockquote > * {
   padding: 0;
 }
 
+article p code {
+  font-size: 14px;
+  background-color: #F0F3F3;
+  border: 1px solid #DDD;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 2px;
+  border-radius: 3px;
+}
+
 #carbonads-container {
   margin-left: 20px;
 }
