@@ -160,3 +160,19 @@ footer .rss {
   width: 24px;
   height: 24px;
 }
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  h1 { margin-bottom: 0; }
+
+  .pane,
+  .site { width: auto; }
+
+  #carbonads-container,
+  .me {
+    display: none;
+  }
+
+  .posts { display: block; }
+  .intro { margin: 0; }
+}
+
