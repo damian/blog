@@ -50,7 +50,7 @@ h3 {
   margin-bottom: 0.7em;
 }
 
-h1 { font-size: 1.8em; margin-top: 0; }
+h1 { font-size: 1.8em; margin-top: 0; float: left; }
 h2 { font-size: 1.4em; }
 h3 { font-size: 1.2em; }
 
@@ -82,10 +82,6 @@ header li {
 
 .posts li {
   line-height: 35px;
-}
-
-.contact {
-  float: right;
 }
 
 .contact li {
@@ -174,5 +170,7 @@ footer .rss {
 
   .posts { display: block; }
   .intro { margin: 0; }
+
+  .contact li { clear: right; float: none; }
 }
 
