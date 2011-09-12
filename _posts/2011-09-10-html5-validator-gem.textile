@@ -34,7 +34,7 @@ end
 
 h3. How does this work?
 
-I wrote a wrapper around an online HTML5 validation service called "validator.nu":http://validator.nu/. When ran as part of an RSpec suite, the rendered HTML is posted to their web service which responds with some JSON containing the results of the validation check.
+I wrote a wrapper around an online HTML5 validation service called "validator.nu":http://validator.nu/. When run as part of an RSpec suite, the rendered HTML is posted to their web service which responds with some JSON containing the results of the validation check.
 
 I opted to use validator.nu over the official W3C validator because it supports JSON(the W3C only supports SOAP), so it's easy to work with in Ruby. 
 
