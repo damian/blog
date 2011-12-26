@@ -10,7 +10,7 @@ I should point out that both the original idea and implementation came from "Ric
 
 *TLDR:* Getting the dimensions for background images in CSS is a common task for front end developers which requires application switching and memory work. Richard has scripted up this process which copies the resulting CSS with correct image dimensions directly to his clipboard. Schweet!
 
-So why am I banging on about a blog post someone else has written? I thought it would be a good learning experience to port it over to Bash. I also knew that retrieving image dimensions is trivial using imagemagick(the only pre-requisite).
+So why am I banging on about a blog post someone else has written? I thought it would be a good learning experience to port it over to Bash as the original was Python(no flame wars please). I also knew that retrieving image dimensions is trivial using imagemagick(the only pre-requisite).
 
 {% highlight bash %}
 #!/bin/bash
