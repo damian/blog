@@ -6,12 +6,12 @@
   margin-bottom: 1em;
 }
 .highlight pre {
-background: transparent;
-color: inherit;
-margin-left: 0;
-border-left: 0;
-font-size: 14px;
-white-space: pre;
+  background: transparent;
+  color: inherit;
+  margin-left: 0;
+  border-left: 0;
+  font-size: 14px;
+  white-space: pre;
 }
 .highlight pre code {
 padding: 0.8em 1em;
