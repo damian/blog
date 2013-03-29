@@ -4,6 +4,7 @@
   border-radius: 4px;
   border: 1px solid #ddd;
   margin-bottom: 1em;
+  background-color: #f0f3f3
 }
 .highlight pre {
   background: transparent;
@@ -18,11 +19,9 @@
   padding: 0.8em 1em;
   display: block;
 }
-.highlight {
-background-color: #f0f3f3
-}
+
 .highlight .hll {
-background-color: #ffc
+  background-color: #ffc
 }
 .highlight .c {
 color: #60a0b0;
