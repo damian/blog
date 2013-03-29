@@ -13,9 +13,10 @@
   font-size: 14px;
   white-space: pre;
 }
+
 .highlight pre code {
-padding: 0.8em 1em;
-display: block;
+  padding: 0.8em 1em;
+  display: block;
 }
 .highlight {
 background-color: #f0f3f3
