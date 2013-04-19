@@ -21,5 +21,3 @@ Because of this trend, front-end developers have to **grow up and start embracin
 One way we can achieve this is by testing our code using a tool like Jasmine. This ensures any JavaScript we write is maintainable, correct and modular.
 
 In my talk, I outlined why and how Jasmine is highly capable of testing any JavaScript of any platform using a few examples along the way.
-
-Test comment
