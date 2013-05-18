@@ -22,7 +22,7 @@ Perhaps it's a premature move on my part, since we can only speculate as to what
 
 ## Android first impressions
 
-Android is pretty darn sweet now. The clunkiness of the interface has gone and the responsiveness is excellent! Added to the fact that I have been able to see dramatic software improvements take place over the past few years made this a  brainer for me. Yes there's room for improvement, but I'm confident that these are going to get addressed in the near future. 
+Android is pretty darn sweet now. The clunkiness of the interface has gone and the responsiveness is excellent! Added to the fact that I have been able to see dramatic software improvements take place over the past few years made this a no brainer for me. Yes there's room for improvement, but I'm confident that these are going to get addressed in the near future. 
 
 That said I'm thoroughly enjoying my Nexus 4 and all that it has to offer! In fact I'm busy writing this very blog post using the gesture enabled keyboard. Something I'd never dream of using my old iPhone.
 
