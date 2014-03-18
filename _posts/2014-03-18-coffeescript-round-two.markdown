@@ -34,9 +34,9 @@ I like knowing that there is one way of doing things. Think of all the different
 
 ## Great support
 
-We're now at a point where compilation is so quick and easy that it's became transparent. It's been baked in to Rails since version 3.1 and CoffeeScript is supported in every other build / asset management tool I've wanted to use in the past of years which includes both grunt and gulp.
+We're now at a point where compilation is so quick and easy that it's became transparent. It's been baked in to Rails since version 3.1 and CoffeeScript is supported in every other decent build / asset management tool including both [Grunt](http://gruntjs.com/) and [gulp](http://gulpjs.com/).
 
 ## Conclusion
 
-Although the subject of CoffeeScript polarises people, I do think *some level of abstraction is natural and required* as  more complex applications are being build on the client. So while CoffeeScript might not be the perfect solution, I do feel it has some merits(far more than my originally thought) and so is worth taking another look at. If not just to try to and prove me wrong. Any takers?
+Although the subject of CoffeeScript polarises people, I do think *some level of abstraction is natural and required* as  more complex applications are being built on the client. So while CoffeeScript might not be the perfect solution, I do feel it has some merits(far more than my originally thought) and so is worth taking another look at. If not just to try to and prove me wrong. Any takers?
 
