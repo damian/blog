@@ -10,7 +10,7 @@ date: 2014-03-17
 
 [Photo credit](http://www.flickr.com/photos/lwy/2555556885/)
 
-My [original take on CoffeeScript](http://damiannicholson.com/2011/07/24/my-take-on-coffeescript.html) wasn't exactly favourable. For those who aren't interested in reading that article the crux of my argument is this:
+My [original take on CoffeeScript](/2011/07/24/my-take-on-coffeescript.html) wasn't exactly favourable. For those who aren't interested in reading that article the crux of my argument is this:
 
 > CoffeeScript doesn't solve enough of a problem to warrant it's use
 
