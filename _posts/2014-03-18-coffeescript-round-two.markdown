@@ -30,7 +30,7 @@ Checking for type and equivalence *all the time* cuts down on random runtime err
 
 ## Consolidation
 
-I like knowing that there is one way of doing things. Think of all the different approaches to inheritance in JavaScript or ensuring your in the correct context(named function, that / this confusion, call, $.proxy). This is all taken care of in the core library, so I like to make use of it wherever I can.
+I like knowing that there is one way of doing things. Think of all the different approaches to inheritance in JavaScript or ensuring your in the correct context(named function, that / this confusion, call, `$.proxy`). This is all taken care of in the core library, so I like to make use of it wherever I can.
 
 ## Great support
 

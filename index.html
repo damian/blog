@@ -13,11 +13,14 @@ title: Damian Nicholson - experienced software developer based in Newcastle
 
 <div class="clearfix"></div>
 
-<h3 class="latest-posts">Latest blog posts</h3>
-<ul class="pane me posts homepage-posts">
-  {% for post in site.posts limit:3 %}
+<h2>Blog</h2>
+
+<h3>Recent posts</h3>
+<ul>
+  {% for post in site.posts limit:10 %}
     <li>
-      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <div>{{ post.date | date_to_string }}</div>
     </li>
   {% endfor %}
 </ul>
