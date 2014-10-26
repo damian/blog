@@ -4,7 +4,6 @@ title: Internet Explorer Stylesheet Limit
 date: 2009-12-21 17:32:18 +00:00
 description: Who knew that Internet Explorer had a restriction on the number of stylesheets it would load into a page, before ignoring the rest!
 ---
-h1. {{ page.title }}
 
 <p>Did you know that IE <a href="http://support.microsoft.com/kb/262161">ignores all style tags</a> after the first 30 requests?</p>
 

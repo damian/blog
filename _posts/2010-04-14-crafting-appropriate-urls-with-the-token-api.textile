@@ -4,7 +4,6 @@ title: Crafting Appropriate URLs with the Token API
 date: 2010-04-14 18:50:47 +01:00
 description: I was recently tasked with dynamically setting the path of Content Type in Drupal, based on whichever taxonomy term the user selects.
 ---
-h1. {{ page.title }}
 
 So <a href="http://drupal.org/project/pathauto">Pathauto</a> does most of the heavy lifting when it comes to making pretty URLs. There's no questioning that this module is must for all <a href="http://drupal.org/">Drupal</a> projects. However I came across a situation recently where the out of the box functionality that Pathauto provides, just wasn't enough.
 

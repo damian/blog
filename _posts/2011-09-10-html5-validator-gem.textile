@@ -4,8 +4,6 @@ title: "HTML5 Validator Gem"
 date: 2011-09-10
 ---
 
-h1. {{ page.title }}
-
 We all know the benefits of adhering to web standards, but I'm sure you'll agree it's a laborious process manually checking the validity of each page within a site or web app using the online W3C validation service or a browser extension.
 
 In an effort to scratch my own itch, I built a gem called "html5_validator":https://rubygems.org/gems/html5_validator. It's geared to run *as part of an RSpec test suite*, so if your serious about being standards compliant, you shouldn't mind your tests failing if you've got some grubby HTML kicking about.

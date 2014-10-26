@@ -4,10 +4,8 @@ title: Why aren't you Huffduffing yet?
 date: 2010-01-11 16:05:03 +00:00
 description: A service built by Jeremy Keith of Clearleft, Huffduffer allows its users to aggregate and discover audio clips from around the web into an RSS feed. Really cool stuff!
 ---
-h1. {{ page.title }}
 
 Lets face it - finding interesting and information rich podcasts in a certain niche is hard work. The web is filled with podcast directories with no easy way to sift through the noise.
-
 h3. Enter Huffduffer
 
 A service built by Clearleft's <a href="http://adactio.com/">Jeremy Keith</a>, <a href="http://huffduffer.com/">Huffduffer</a> is a social tagging tool for audio files. Think of it as a Delicious for MP3s, but better.

@@ -5,8 +5,6 @@ date: 2010-07-07
 description: ""
 ---
 
-h1. {{ page.title }}
-
 The need to perform synchronous AJAX calls sometimes arises, for example if your passing tokens back and forth for security reasons. <a href="http://jquery.com/">jQuery</a> makes such calls dead easy, all you have to do is set the 'async' option to false when setting up the AJAX handler.
 
 {% highlight javascript %}

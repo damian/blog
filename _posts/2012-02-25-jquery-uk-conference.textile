@@ -4,8 +4,6 @@ title: "jQuery UK conference"
 date: 2012-02-25
 ---
 
-h1. {{ page.title }}
-
 <img src="/images/jquery-uk.jpg" alt="jQuery UK" />
 
 Two weeks ago I had the pleasure of going to jQuery UK in Oxford. I finally managed to write up my notes from the event, so without further ado, here they are.

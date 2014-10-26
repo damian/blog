@@ -4,8 +4,6 @@ title: "JavaScript North East"
 date: 2012-04-21
 ---
 
-# {{ page.title }}
-
 Last week I had the pleasure of giving a talk on [Jasmine](http://pivotal.github.com/jasmine/) at JavaScript North East(JSNE). Despite being nervous as hell(public speaking), the talk went ok and it managed to provide some stimulating conversation around testing.
 
 ## Slides

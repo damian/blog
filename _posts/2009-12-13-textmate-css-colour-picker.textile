@@ -4,7 +4,6 @@ title: TextMate CSS Colour Picker
 date: 2009-12-13 17:33:08 +00:00
 description: A quick tip for those who use TextMate to wrangle their CSS.
 ---
-h1. {{ page.title }}
 
 Being a heavy mac user, I'm always in my favourite text editor - <a href="http://macromates.com/">TextMate</a>. Here's a tip for when working with colour in a CSS file. This shortcut brings up a real handy colour picker.
 

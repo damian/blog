@@ -4,7 +4,6 @@ title: "Project: Nearest Cineworld"
 date: 2011-04-07
 description: I decided to put my Cineworld gem to good use, using the HTML5 geolocation API to find your Nearest Cineworld.
 ---
-h1. {{ page.title }}
 
 As an avid cinema goer, I'm always checking the "Cineworld":http://cineworld.co.uk website to see whats showing at my local venue. Because I tend not to bookmark "anything locally":http://pinboard.in/u:damian, I get sick of having to go to their site, clicking the Cinemas tab, finding Boldon Tyne & Wear in the dropdown and so on.
 

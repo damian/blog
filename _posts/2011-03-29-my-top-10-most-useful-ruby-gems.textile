@@ -4,7 +4,6 @@ title: My top 10 most useful Ruby Gems
 date: 2011-03-29 12:45:55 +01:00
 description: In which I outline a bunch of Ruby Gems that manage to sneak their way in to the majority of my Rails projects.
 ---
-h1. {{ page.title }}
 
 In no particular order, here are my top 10 most useful Ruby Gems as of March 2011.</p>
 

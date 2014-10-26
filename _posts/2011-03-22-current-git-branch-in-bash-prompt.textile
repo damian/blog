@@ -4,7 +4,6 @@ title: Current git branch in bash prompt
 date: 2011-03-22 12:59:17 +00:00
 description: Branching and merging like a mofo has consequences...
 ---
-h1. {{ page.title }}
 
 Git users - do this happen to you?
 

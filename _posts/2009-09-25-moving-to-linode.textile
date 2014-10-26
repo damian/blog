@@ -4,7 +4,6 @@ title: Moving to Linode
 date: 2009-09-25
 description: "I have recently shifted this sites hosting to Linode. This post details my reasons for moving, and my experience using managing a VPS thus far."
 ---
-h1. {{ page.title }}
 
 As part of my <a href="http://damiannicholson.com/posts/moving-to-wordpress">move back over to WordPress</a>, I also switched hosting companies. Being a <a href="http://orangebus.co.uk/">developer</a> I wanted some hands on experience running my own server, and since the pricing for a VPS is now quite reasonable(only &pound;5 more a month than what I was currently paying), I decided to take the plunge.
 

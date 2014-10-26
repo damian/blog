@@ -4,9 +4,7 @@ title: "Scotland.js"
 date: 2013-05-23
 ---
 
-# Scotland.js
-
-<img src="http://www.attacat.co.uk/wp-content/uploads/166412-summerhall-edinburgh.jpg" alt="Summerhall" />
+<img src="http://www.attacat.co.uk/wp-content/uploads/166412-summerhall-edinburgh.jpg" alt="Summerhall" width="594px" />
 
 [Photo credit - STV Edinburgh](http://nfs.stvfiles.com/imagebase/166/623x349/166412-summerhall-edinburgh.jpg)
 

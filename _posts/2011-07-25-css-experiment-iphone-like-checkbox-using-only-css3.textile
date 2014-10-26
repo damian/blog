@@ -3,7 +3,6 @@ layout: post
 title: "iPhone style checkbox using only CSS3"
 date: 2011-07-25
 ---
-h1. {{ page.title }}
 
 I'm not normally one for CSS experiments, but after reading a few chapters of "Hardboiled Webdesign":http://hardboiledwebdesign.com/ on the plane journey back from Mexico, I had the urge to try out some CSS transitions.
 

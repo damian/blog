@@ -4,8 +4,8 @@ title: Gowalla - where's my ROI?
 date: 2010-11-08 20:31:42 +00:00
 description: I've been making considerable use of location based service Gowalla for the past few months now. In all of that time, I have yet to find it provides any value to me.
 ---
-<p>I first signed up to <a href="http://gowalla.com/">Gowalla</a> early this year, but left my account untouched, just to see whether any of location based services would catch on.</p>
 
+<p>I first signed up to <a href="http://gowalla.com/">Gowalla</a> early this year, but left my account untouched, just to see whether any of location based services would catch on.</p>
 <p>Fast forward to August, and for some reason I felt the urge to give Gowalla a try, in the hopes that it would compliment my other social media outlets.</p>
 
 <p>I opted for Gowalla over the <a href="http://foursquare.com/">other one</a> out of my respect for <a href="http://maxvoltar.com/">Tim Van Damme's</a> work. I've been a follower of Tim's work for some time now and his freelance stuff on Gowalla's website is very nice. Because of this I figured Gowalla would at least be aesthetically pleasing. A few minutes later I downloaded the iPhone app and away I went.</p>

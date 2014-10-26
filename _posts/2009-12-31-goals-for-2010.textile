@@ -6,7 +6,6 @@ description: Wherein I outline my goals for 2010, as I'm quite a driven person a
 ---
 Because I'm feeling very optimistic about what next year has to bring, I've put together a list of things I want to achieve. In no particular order, they are:
 
-
 h3. Release a jQuery plugin
 
 I started making a very basic jQuery colour swatch earlier in the year, but it went on the back-burner before I managed to perfect it. I'll definitely be releasing this as a jQuery plugin and hopefully some other cool stuff in 2010

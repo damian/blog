@@ -4,7 +4,6 @@ title: Nearest Cineworld is now on GitHub
 date: 2011-04-12 16:40:23 +01:00
 description: As promised, the codebase that powers the Nearest Cineworld is now on GitHub.
 ---
-h1. {{ page.title }}
 
 "As promised":/posts/project-nearest-cineworld, the codebase that powers the "Nearest Cineworld":http://nearest-cineworld.co.uk is now "on GitHub":https://github.com/damian/nearest-cineworld.
 

@@ -3,7 +3,6 @@ layout: post
 title: "New fangled technologies"
 date: 2010-04-29
 ---
-h1. {{ page.title }}
 
 bq. A rule of thumb that has worked well for me is that if I'm excited to play around with something, it probably doesn't belong in production.
 

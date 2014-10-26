@@ -4,7 +4,6 @@ title: Ruby Date format gotcha
 date: 2010-12-12 22:54:59 +00:00
 description: "I recently upgraded a Rails application that I've been working on from version 2.3.8 to 3.0.3. Since the newer releases of Rails support Ruby 1.9, I thought this would be an ideal opportunity to take advantage of the performance improvements both these updates provide."
 ---
-h1. {{ page.title }}
 
 Here's a little gotcha that I came across when parsing Date strings for insertion into a mysql date field.
 

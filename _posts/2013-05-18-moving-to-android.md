@@ -4,8 +4,6 @@ title: "Moving to Android"
 date: 2013-05-18
 ---
 
-# Moving to Android
-
 <img src="/images/android.jpg" alt="Android logo" />
 
 [Photo credit](http://www.flickr.com/photos/saadirfan/5168981298/sizes/z/in/photostream/)

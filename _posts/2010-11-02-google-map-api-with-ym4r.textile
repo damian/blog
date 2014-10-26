@@ -4,7 +4,6 @@ title: Google map api with ym4r
 date: 2010-11-02
 description: "I hit an issue earlier today using the ym4r plugin. As usual, the application on my local machine functioned perfectly, but upon deploying it to the live server I hit a snag."
 ---
-h1. {{ page.title }}
 
 In development, the application was working fine. And because the <a href="http://ym4r.rubyforge.org/">ym4r plugin</a> has yet to implement the Google maps api version 3, I made sure to include the appropriate api key for the domain in the config.
 

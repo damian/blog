@@ -4,7 +4,6 @@ title: "My take on CoffeeScript"
 date: 2011-07-24
 description: "Revealing my initial reactions on CoffeeScript"
 ---
-h1. {{ page.title }}
 
 So "CoffeeScript":http://jashkenas.github.com/coffee-script/ has been on my radar for some time now, and unfortunately it hasn't piqued my interest as much as other Ruby developers I know. Only recently did I eventually realise as to why this was the case - *it doesn't solve a problem*.
 

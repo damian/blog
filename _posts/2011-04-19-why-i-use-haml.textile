@@ -4,7 +4,6 @@ title: Why I Use Haml
 date: 2011-04-19
 description: A lengthy account of my first encounter with Haml and how it's become an excellent addition to my toolkit.
 ---
-h1. {{ page.title }}
 
 If you'd asked me six months ago my stance on alternative templating engines, you would have heard me say something along the lines of 'I can't see the point in them. Why do I need to learn another DSL when I'm perfectly comfortable writing ERB.' To be fair, I bet a lot of developers still feel the same way.
 

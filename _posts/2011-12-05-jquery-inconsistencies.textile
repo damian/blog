@@ -4,8 +4,6 @@ title: "jQuery inconsistencies"
 date: 2011-12-05
 ---
 
-h1. {{ page.title }}
-
 Yesterday I discovered what *I thought to be a bug in jQuery*. See the snippet below which highlights the issue I ran in to.
 
 {% highlight javascript %}

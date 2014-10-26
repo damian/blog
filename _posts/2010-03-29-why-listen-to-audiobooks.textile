@@ -4,7 +4,6 @@ title: Why listen to audiobooks?
 date: 2010-03-29 20:17:56 +01:00
 description: "After re-discovering audiobooks, I subscribe to <a href=\"http://audible.co.uk\">audible.co.uk</a> and outline how much they're having an impact on my reading habits."
 ---
-h1. {{ page.title }}
 
 One of my <a href="/posts/goals-for-2010">goals for 2010</a> is to read more books. This became a realisation when I noticed the few that lay on my nightstand had formed a nice coating of dust. The problem was that setting aside time to sit down and read had become a chore. I liken it to going to the gym. Once your there it's great and afterward your happy you made the effort to go, but getting there really takes some motivation.
 

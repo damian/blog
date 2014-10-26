@@ -4,7 +4,6 @@ title: Drupal Clear Cache Bookmarklet
 date: 2010-04-11 20:15:33 +01:00
 description: "Because clearing the cache tables in Drupal is something I seem to be constantly doing, I wrote a small JavaScript bookmarklet which does it for me!"
 ---
-h1. {{ page.title }}
 
 Because I haven't got round to playing with <a href="http://drupal.org/project/drush">Drush</a> yet, I decided to throw together a bookmarklet to clear Drupal's cache.
 

@@ -4,8 +4,6 @@ title: "Speed up writing CSS backgrounds in Bash"
 date: 2011-12-26
 ---
 
-h1. {{ page.title }}
-
 I should point out that both the original idea and implementation came from "Richard Bradshaw":http://www.bradshawenterprises.com. I highly recommend reading his "blog post":http://www.bradshawenterprises.com/blog/2011/speed-up-writing-css-backgrounds as it's a good primer as to why this script is so useful for people who write CSS often.
 
 *TLDR:* Getting the dimensions for background images in CSS is a common task for front end developers which requires application switching and memory work. Richard has scripted up this process which copies the resulting CSS with correct image dimensions directly to his clipboard. Schweet!
