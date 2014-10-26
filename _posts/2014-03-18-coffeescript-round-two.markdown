@@ -4,7 +4,7 @@ title: "CoffeeScript round two"
 date: 2014-03-17
 ---
 
-<img src="http://farm4.staticflickr.com/3017/2555556885_6a1b81a97f_z.jpg" alt="Coffee cupt" />
+<img width="594px" src="http://farm4.staticflickr.com/3017/2555556885_6a1b81a97f_z.jpg" alt="Coffee cupt" />
 
 [Photo credit](http://www.flickr.com/photos/lwy/2555556885/)
 
