@@ -28,6 +28,10 @@ body {
   width: 33em;
 }
 
+.site .post {
+  margin-bottom: 20px;
+}
+
 .profile {
   border-radius: 60px;
   float: left;
