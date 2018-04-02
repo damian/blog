@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div class="site">
+      <article class="post">
+        <div class="intro">
+          <h1>{{ .Title }}</h1>
+          <div class="meta">{{ .Date.Format "January 2, 2006" }}</div>
+        </div>
+        {{ .Content }}
+      </article>
+    </div>
+    {{ partial "tracking.html" . }}
+  </body>
+</html>

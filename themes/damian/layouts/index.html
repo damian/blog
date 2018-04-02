@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div class="site">
+      {{ .Content }}
+    </div>
+    {{ partial "tracking.html" . }}
+  </body>
+</html>

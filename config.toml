@@ -1,0 +1,8 @@
+baseURL = "https://www.damiannicholson.com"
+languageCode = "en-uk"
+title = "Damian Nicholson"
+theme = "damian"
+metaDataFormat = "toml"
+
+[permalinks]
+posts = "/posts/:year/:month/:day/:slug/"

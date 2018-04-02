@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <div class="site">
+      <h3>Recent posts</h3>
+      {{ range .Data.Pages }}
+        <div class="post">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <div>{{ .Date.Format "2 Jan 2006" }}</div>
+        </div>
+      {{ end }}
+    </div>
+    {{ partial "tracking.html" . }}
+  </body>
+</html>
