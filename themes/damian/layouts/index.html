@@ -2,10 +2,24 @@
 <html>
   {{ partial "head.html" . }}
   <body>
-    {{ partial "header.html" . }}
-    <div class="site">
-      {{ .Content }}
+    {{ partial "navigation.html" . }}
+    <header>
+      <div class="wrapper">
+        <h1 class="title">Damian Nicholson</h1>
+        {{ .Content }}
+      </div>
+    </header>
+    <div class="wrapper">
+      <ul class="archive">
+      {{ range .Data.Pages }}
+        <li>
+          <div>{{ .Date.Format "January 2 2006" }}</div>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+      {{ end }}
+      </ul>
     </div>
+    {{ partial "footer.html" . }}
     {{ partial "tracking.html" . }}
   </body>
 </html>

@@ -3,6 +3,7 @@ languageCode = "en-uk"
 title = "Damian Nicholson"
 theme = "damian"
 metaDataFormat = "toml"
+pygmentsUseClasses = true
 
 [permalinks]
 posts = "/posts/:year/:month/:day/:slug/"
