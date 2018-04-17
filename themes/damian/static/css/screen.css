@@ -20,7 +20,7 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  width: 800px;
+  max-width: 700px;
 }
 
 h1 {
@@ -56,7 +56,7 @@ a {
 
 article {
   display: grid;
-  grid-template-columns: [full-start] minmax(1em, 1fr) [main-start] minmax(0, 800px) [main-end] minmax(1em, 1fr) [full-end];
+  grid-template-columns: [full-start] minmax(1em, 1fr) [main-start] minmax(0, 700px) [main-end] minmax(1em, 1fr) [full-end];
   grid-row-gap: 26px;
   margin-bottom: 55px;
 }
@@ -88,8 +88,9 @@ article header {
   grid-column: full;
 }
 
+article ol,
 article ul {
-  list-style: inside;
+  list-style-position: inside;
 }
 
 article li {
