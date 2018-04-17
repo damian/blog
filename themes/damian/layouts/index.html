@@ -2,14 +2,14 @@
 <html lang="en">
   {{ partial "head.html" . }}
   <body>
-    {{ partial "navigation.html" . }}
-    <header>
-      <div class="wrapper">
-        <h1 class="title">Damian Nicholson</h1>
-        {{ .Content }}
-      </div>
-    </header>
-    <div class="wrapper">
+    <main>
+      {{ partial "navigation.html" . }}
+      <header>
+        <div class="wrapper">
+          <h1 class="title">Damian Nicholson</h1>
+          {{ .Content }}
+        </div>
+      </header>
       <ul class="archive">
       {{ range .Data.Pages }}
         <li>
@@ -18,8 +18,8 @@
         </li>
       {{ end }}
       </ul>
-    </div>
-    {{ partial "footer.html" . }}
+      {{ partial "footer.html" . }}
+    </main>
     {{ partial "tracking.html" . }}
   </body>
 </html>

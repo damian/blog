@@ -18,6 +18,20 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+main {
+  display: grid;
+  grid-template-columns: [full-start] minmax(10px, 1fr) [main-start] minmax(320px, 700px) [main-end] minmax(10px, 1fr) [full-end];
+}
+
+main > * {
+  grid-column: main;
+}
+
+main header {
+  grid-column: full;
+  padding: 150px 10px;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 700px;
@@ -34,9 +48,6 @@ nav {
   text-transform: uppercase;
   padding: 8px 0;
   font-size: 13px;
-}
-
-ul {
 }
 
 nav li {
@@ -56,13 +67,7 @@ a {
 
 article {
   display: grid;
-  grid-template-columns: [full-start] minmax(1em, 1fr) [main-start] minmax(0, 700px) [main-end] minmax(1em, 1fr) [full-end];
   grid-row-gap: 26px;
-  margin-bottom: 55px;
-}
-
-article > * {
-  grid-column: main;
 }
 
 .archive a:hover,
@@ -151,11 +156,16 @@ footer li:last-child:after {
   display: flex;
   text-transform: lowercase;
   justify-content: space-between;
+  margin-bottom: 26px;
 }
 
-pre.chroma {
-  padding: 20px;
+.highlight {
   overflow-x: scroll;
+  background: #f8f8f8;
+}
+
+.chroma {
+  padding: 20px;
 }
 
 article p code,
@@ -171,3 +181,22 @@ article pre code {
   font-size: 96px;
   margin-bottom: 20px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  footer ul {
+    flex-direction: column;
+  }
+
+  footer li:after {
+    content: none;
+  }
+
+  .title {
+    font-size: 80px;
+  }
+
+  .archive a {
+    font-size: 40px;
+  }
+}
+
