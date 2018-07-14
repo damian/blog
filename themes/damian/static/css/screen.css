@@ -85,7 +85,7 @@ article img {
 
 header {
   padding: 150px 0;
-  background: rgba(0, 0, 0, .02);
+  background: #FAFAFA;
   margin-bottom: 120px;
 }
 
@@ -104,6 +104,12 @@ article li {
 
 article code {
   font-family: Menlo, Consolas, monospace;
+}
+
+article blockquote {
+  background: #FAFAFA;
+  padding: 20px;
+  border-left: 4px solid #A212D1;
 }
 
 nav ul,
@@ -148,7 +154,7 @@ footer li:last-child:after {
 
 .meta,
 .archive div {
-  opacity: 0.5;
+  color: #727272;
   text-transform: uppercase;
 }
 
