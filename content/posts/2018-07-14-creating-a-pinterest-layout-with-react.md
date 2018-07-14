@@ -1,6 +1,6 @@
 +++
 title = "Creating a layout like Pinterest with React and the partition problem"
-date = "2018-07-15"
+date = "2018-07-14"
 +++
 
 ![](http://www.img.damiannicholson.com/Screen_Shot_2018-07-13_at_23.11.55.png)
