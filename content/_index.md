@@ -1,5 +1,5 @@
 +++
-title = "experienced software developer based in Newcastle Upon Tyne"
+title = "Experienced software developer based in Newcastle Upon Tyne"
 +++
 
 I work as the lead front end engineer at [Conferize](https://www.conferize.com)
