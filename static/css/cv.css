@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #fff4d8;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #212121;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
+    sans-serif;
+  font-size: 21px;
+  line-height: 36px;
+  text-rendering: optimizeLegibility;
+}
+
+.print {
+  display: none;
+}
+
+a {
+  color: #ff665a;
+  text-decoration: none;
+}
+
+svg {
+  display: block;
+}
+
+ul {
+  list-style: inside;
+}
+
+h2 {
+  border-bottom: 3px solid #212121;
+  margin-top: 39px;
+  margin-bottom: 36px;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30px 250px);
+  grid-column-gap: 10px;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.wrapper {
+  margin: 70px auto;
+  max-width: 700px;
+}
+
+.skills {
+  list-style: none;
+}
+
+.skills li {
+  display: inline-block;
+  border: 2px solid #dedede;
+  padding: 0 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border-style: solid;
+  border-color: #dedede;
+  margin: 36px 0;
+}
+
+.job-meta {
+  margin-bottom: 20px;
+}
+
+.location,
+.tenure {
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.location {
+  background-image: url('data:image/svg+xml;utf8,<svg height="14" width="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 32c-74 0-134.2 58.7-134.2 132.7 0 16.4 3.5 34.3 9.8 50.4h-.1l.6 1.2 1.5 3.3L256 480l121.8-259.1.6-1.2c.5-1.1 1.1-2.2 1.6-3.4l.4-1.1c6.5-16.1 9.8-33.1 9.8-50.3C390.2 90.7 330 32 256 32zm0 174.9c-25.9 0-46.9-21-46.9-46.9s21-46.9 46.9-46.9 46.9 21 46.9 46.9-21 46.9-46.9 46.9z" /></svg>');
+}
+
+.tenure {
+  color: #b1b1b1;
+  background-image: url('data:image/svg+xml;utf8,<svg height="14" width="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M448.9 64H416v40.7c0 22.5-23.2 39.3-47.2 39.3S320 127.2 320 104.7V64H192v40.7c0 22.5-24 39.3-48 39.3s-48-16.8-48-39.3V64H63.1C45.9 64 32 77.3 32 93.4v357.5C32 467 45.9 480 63.1 480h385.8c17.2 0 31.1-13 31.1-29.2V93.4c0-16.1-13.9-29.4-31.1-29.4zM432 419.9c0 6.6-5.8 12-12.8 12l-326.5.1c-7-.3-12.7-5.6-12.7-12.2V188.3c0-6.9 5.9-12.3 13.3-12.3h325.5c7.3 0 13.2 5.3 13.2 12.1v231.8z"/><path d="M176 96c0 17.7-14.3 32-32 32s-32-14.3-32-32V64c0-17.7 14.3-32 32-32s32 14.3 32 32v32zM400 96c0 17.7-14.3 32-32 32s-32-14.3-32-32V64c0-17.7 14.3-32 32-32s32 14.3 32 32v32z"/></svg>');
+}
+
+dt {
+  text-indent: -10000px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.email {
+  background-image: url('data:image/svg+xml;utf8,<svg height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M453.8 407.1c-23.9 25.3-52.3 43.8-85.2 55.4C335.7 474.2 301 480 264.5 480c-34.9 0-66.7-5.5-95.3-16.6-28.6-11-53.1-26.4-73.3-46.1-20.3-19.7-36-43.3-47.2-70.8C37.5 319 32 289 32 256.5c0-32.1 6.1-61.8 18.3-89.1 12.2-27.3 28.8-51 49.9-71.1 21.1-20.1 45.7-35.8 74-47.3 28.1-11.3 58.3-17 90.3-17 27.6 0 54.4 4 80.3 12 26 8 49 20.1 69.1 36.1C434 96.2 450 116.2 462 140.3s18 52.4 18 84.9c0 24.1-3.3 45.4-10 63.8-6.7 18.5-15.6 33.9-26.8 46.4-11.2 12.5-23.9 21.8-38.3 28-14.4 6.2-29.5 9.3-45.3 9.3-16.2 0-29.2-3.8-39-11.4-9.7-7.6-14.6-17.3-14.6-28.9h-3c-6.1 9.6-15.4 18.8-28 27.4-12.6 8.6-28 13-46.3 13-27.6 0-48.9-9-63.9-27.1s-22.5-41.5-22.5-70.5c0-16.9 2.8-33.5 8.5-50s13.8-31.1 24.3-44c10.5-12.8 23.1-23.2 37.7-31 14.6-7.8 30.8-11.7 48.7-11.7 15.4 0 28.4 3.2 39 9.6 10.5 6.4 17.4 14.3 20.7 23.5h.6l4.9-24.1h54.2L357 261.4c-.8 5.6-1.9 11.8-3.3 18.7-1.4 6.8-2.1 13.2-2.1 19.3 0 6.8 1.3 12.5 4 17.2 2.6 4.6 7.8 6.9 15.5 6.9 15.8 0 28.9-8.4 39.3-25.3 10.3-16.9 15.5-39.5 15.5-68 0-24.1-4.1-45.5-12.2-64.1-8.1-18.7-19.4-34.3-33.8-47-14.4-12.6-31.6-22.2-51.4-28.6-19.9-6.4-41.6-9.6-65.1-9.6-25.6 0-49 4.5-70.3 13.5s-39.5 21.5-54.5 37.3c-15 15.9-26.7 34.5-35 56-8.4 21.4-12.6 44.6-12.6 69.5 0 26.5 4.4 50.4 13.1 71.7 8.7 21.3 21 39.4 36.8 54.5 15.8 15.1 34.7 26.6 56.6 34.6s46.1 12 72.4 12c32.9 0 61.2-5.2 84.9-15.7 23.7-10.4 45.5-24.9 65.4-43.4l33.6 36.2zM263.3 188c-9.7 0-18.3 2.8-25.6 8.4-7.3 5.6-13.5 12.7-18.6 21.4-5.1 8.6-8.9 18.2-11.6 28.6-2.6 10.4-4 20.5-4 30.1 0 4.8.5 9.9 1.5 15.4 1 5.4 3 10.4 6.1 15.1 3 4.6 7 8.4 11.9 11.4s11.4 4.5 19.5 4.5c11 0 20.3-2.7 28-8.1 7.7-5.4 14-12.2 18.9-20.5 4.9-8.2 8.4-17.2 10.7-26.8 2.2-9.6 3.3-18.5 3.3-26.5 0-6.4-.6-12.7-1.8-19-1.2-6.2-3.3-11.8-6.4-16.9-3-5-7.2-9.1-12.5-12.3-5.2-3.2-11.7-4.8-19.4-4.8z" /></svg>');
+}
+
+.github {
+  background-image: url('data:image/svg+xml;utf8,<svg height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M256 32C132.3 32 32 134.8 32 261.7c0 101.5 64.2 187.5 153.2 217.9 11.2 2.1 15.3-5 15.3-11.1 0-5.5-.2-19.9-.3-39.1-62.3 13.9-75.5-30.8-75.5-30.8-10.2-26.5-24.9-33.6-24.9-33.6-20.3-14.3 1.5-14 1.5-14 22.5 1.6 34.3 23.7 34.3 23.7 20 35.1 52.4 25 65.2 19.1 2-14.8 7.8-25 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8 0 0 18.8-6.2 61.6 23.5 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 42.8-29.7 61.5-23.5 61.5-23.5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 6.1 4 13.3 15.4 11C415.9 449.1 480 363.1 480 261.7 480 134.8 379.7 32 256 32z" fill-rule="evenodd" clip-rule="evenodd"/></svg>');
+}
+
+.website {
+  background-image: url('data:image/svg+xml;utf8,<svg height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M256.5 208h-.5.5zM368.5 160H320s26 17 31.6 48h16.9c17.6 0 31.5 13.9 31.5 31.5v32c0 17.6-13.9 32.5-31.5 32.5h-112c-17.6 0-32.5-14.9-32.5-32.5V240h-48v31.5c0 11.5 2.5 22.5 6.9 32.5 12.6 28.2 40.9 48 73.6 48h112c44.2 0 79.5-36.3 79.5-80.5v-32c0-44.2-35.3-79.5-79.5-79.5z" /><path d="M329.6 208c-12.1-28.3-40.1-48-73.1-48h-112c-44.2 0-80.5 35.3-80.5 79.5v32c0 44.2 36.3 80.5 80.5 80.5H192s-25.8-17-32.1-48h-15.4c-17.6 0-32.5-14.9-32.5-32.5v-32c0-17.6 14.9-31.5 32.5-31.5h112c17.6 0 31.5 13.9 31.5 31.5V272h48v-32.5c0-11.2-2.3-21.9-6.4-31.5z" /></svg>');
+}
+
+.home {
+  background-image: url('data:image/svg+xml;utf8,<svg height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M256 32c-74 0-134.2 58.7-134.2 132.7 0 16.4 3.5 34.3 9.8 50.4h-.1l.6 1.2 1.5 3.3L256 480l121.8-259.1.6-1.2c.5-1.1 1.1-2.2 1.6-3.4l.4-1.1c6.5-16.1 9.8-33.1 9.8-50.3C390.2 90.7 330 32 256 32zm0 174.9c-25.9 0-46.9-21-46.9-46.9s21-46.9 46.9-46.9 46.9 21 46.9 46.9-21 46.9-46.9 46.9z" /></svg>');
+}
+
+.telephone {
+  background-image: url('data:image/svg+xml;utf8,<svg height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg"><path d="M415.9 335.5c-14.6-15-56.1-43.1-83.3-43.1-6.3 0-11.8 1.4-16.3 4.3-13.3 8.5-23.9 15.1-29 15.1-2.8 0-5.8-2.5-12.4-8.2l-1.1-1c-18.3-15.9-22.2-20-29.3-27.4l-1.8-1.9c-1.3-1.3-2.4-2.5-3.5-3.6-6.2-6.4-10.7-11-26.6-29l-.7-.8c-7.6-8.6-12.6-14.2-12.9-18.3-.3-4 3.2-10.5 12.1-22.6 10.8-14.6 11.2-32.6 1.3-53.5-7.9-16.5-20.8-32.3-32.2-46.2l-1-1.2c-9.8-12-21.2-18-33.9-18-14.1 0-25.8 7.6-32 11.6-.5.3-1 .7-1.5 1-13.9 8.8-24 20.9-27.8 33.2-5.7 18.5-9.5 42.5 17.8 92.4 23.6 43.2 45 72.2 79 107.1 32 32.8 46.2 43.4 78 66.4 35.4 25.6 69.4 40.3 93.2 40.3 22.1 0 39.5 0 64.3-29.9 26-31.4 15.2-50.6-.4-66.7z" /></svg>');
+}
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .print {
+    display: block;
+    list-style: none;
+  }
+
+  .print li {
+    display: inline-block;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  dl {
+    margin-top: 10px;
+    grid-template-columns: repeat(auto-fit, 85px 250px);
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  hr {
+    margin: 5px 0;
+  }
+
+  .location,
+  .tenure {
+    background: none;
+    padding-left: 0;
+  }
+
+  .location {
+    margin-left: 10px;
+  }
+
+  .github,
+  .website,
+  .home,
+  .email,
+  .telephone {
+    background: none;
+    text-indent: 0;
+  }
+
+  .job-meta {
+    margin-bottom: 0;
+  }
+
+  .skills li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .print li:after,
+  .skills li:after {
+    content: ', ';
+    margin-right: 2px;
+  }
+
+  .print li:last-child:after,
+  .skills li:last-child:after {
+    content: '';
+  }
+}
