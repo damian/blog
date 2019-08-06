@@ -3,7 +3,7 @@ title = "Designing form validation the right way"
 date = "2018-01-27"
 +++
 
-![FrontEndNorth](http://www.img.damiannicholson.com/IMG_0242.JPG)
+![FrontEndNorth](https://s3-eu-west-1.amazonaws.com/www.img.damiannicholson.com/IMG_0242.JPG)
 
 Last week I had the privilege of speaking at [FrontEndNorth](https://frontendnorth.com/) in Sheffield. The talk I gave was heavily based on the one [I gave at JavaScript North East]({{< relref 2017-11-02-making-sure-your-forms-dont-suck >}}) in November(with some obvious refinements) about the challenges posed to end users and developers when working with inline validation. I was able to share my experiences on both ends of the spectrum and how we can alleviate these challenges by using [React](https://reactjs.org/) along with some smart design decisions to prevent alienating users of the applications we build. Finally I shared some best practices about how to better design forms so attendees can use this knowledge when building out web forms in the future.
 

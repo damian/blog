@@ -7,7 +7,7 @@ title = "Batch file renaming in Bash"
 
 Batch file renaming is a common job for a developer. In the past, I've used a Mac application called [NameMangler](http://manytricks.com/namemangler/) or Finder itself to do the heavy lifting for me. Those tools work well when the files being transformed live within the same directory, but it quickly becomes more difficult when you want to be able to work across multiple, potentially nested directory structures.
 
-![Basic batch file renaming using Finder](http://www.img.damiannicholson.com/batch-file-rename.png)
+![Basic batch file renaming using Finder](https://s3-eu-west-1.amazonaws.com/www.img.damiannicholson.com/batch-file-rename.png)
 
 On the past few occasions, I've used Bash to great effect, though for some reason I **NEVER REMEMBER** how to correctly pipe the file transformation on to the `find` command, so I'm documenting it here for future reference.
 

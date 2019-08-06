@@ -3,7 +3,7 @@ title = "From Jekyll to Hugo"
 date = "2018-04-12"
 +++
 
-![Hugo logo](http://www.img.damiannicholson.com/Image_ik2u51eaxB.png)
+![Hugo logo](https://s3-eu-west-1.amazonaws.com/www.img.damiannicholson.com/Image_ik2u51eaxB.png)
 
 After a few years of blogging using [Jekyll](https://jekyllrb.com/) it began to
 lose its lustre. I think that's had a knock on effect in my desire to create new
@@ -26,7 +26,7 @@ were surpassed! Site builds now take fractions of a second and I'm certainly not
 going to miss having to install and set up Ruby, Bundler and Ruby Gems on any
 new machines in the future.
 
-![](http://www.img.damiannicholson.com/full-logo-light.png)
+![](https://s3-eu-west-1.amazonaws.com/www.img.damiannicholson.com/full-logo-light.png)
 
 I also used this as an opportunity to revisit the hosting of my blog, which
 previously sat in Amazon S3 behind Cloudfront using the [s3_website
