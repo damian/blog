@@ -12,10 +12,12 @@
       </header>
       <ul class="archive">
       {{ range .Data.Pages }}
-        <li>
-          <div>{{ .Date.Format "January 2 2006" }}</div>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+        {{ if .Title }}
+          <li>
+            <div>{{ .Date.Format "January 2 2006" }}</div>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+        {{ end }}
       {{ end }}
       </ul>
       {{ partial "footer.html" . }}
