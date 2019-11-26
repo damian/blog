@@ -5,7 +5,7 @@ title = "CoffeeScript round two"
 
 +++
 
-<img width="594px" src="http://farm4.staticflickr.com/3017/2555556885_6a1b81a97f_z.jpg" alt="Coffee cupt" />
+<img width="594px" src="https://farm4.staticflickr.com/3017/2555556885_6a1b81a97f_z.jpg" alt="Coffee cupt" />
 
 [Photo credit](http://www.flickr.com/photos/lwy/2555556885/)
 
@@ -13,7 +13,7 @@ My [original take on CoffeeScript](/2011/07/24/my-take-on-coffeescript.html) was
 
 > CoffeeScript doesn't solve enough of a problem to warrant it's use
 
-Well I'm happy to say that my opinion on this matter has changed. I now firmly believe CoffeeScript *does solve* a number of important problems to warrant its use. The rationale for my change of heart is outlined below.
+Well I'm happy to say that my opinion on this matter has changed. I now firmly believe CoffeeScript _does solve_ a number of important problems to warrant its use. The rationale for my change of heart is outlined below.
 
 ## Brevity and clarity
 
@@ -25,7 +25,7 @@ Especially those that help you get around the nuances of the compiled language. 
 
 ## Confidence
 
-Checking for type and equivalence *all the time* cuts down on random runtime errors. I have more confidence in my code and test suite as a result of this.
+Checking for type and equivalence _all the time_ cuts down on random runtime errors. I have more confidence in my code and test suite as a result of this.
 
 ## Consolidation
 
@@ -37,5 +37,4 @@ We're now at a point where compilation is so quick and easy that it's became tra
 
 ## Conclusion
 
-Although the subject of CoffeeScript polarises people, I do think *some level of abstraction is natural and required* as  more complex applications are being built on the client. So while CoffeeScript might not be the perfect solution, I do feel it has some merits(far more than my originally thought) and so is worth taking another look at. If not just to try to and prove me wrong. Any takers?
-
+Although the subject of CoffeeScript polarises people, I do think _some level of abstraction is natural and required_ as more complex applications are being built on the client. So while CoffeeScript might not be the perfect solution, I do feel it has some merits(far more than my originally thought) and so is worth taking another look at. If not just to try to and prove me wrong. Any takers?

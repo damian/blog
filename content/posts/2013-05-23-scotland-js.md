@@ -5,7 +5,7 @@ title = "Scotland.js"
 
 +++
 
-<img src="http://www.attacat.co.uk/wp-content/uploads/166412-summerhall-edinburgh.jpg" alt="Summerhall" width="594px" />
+<img src="https://www.attacat.co.uk/wp-content/uploads/166412-summerhall-edinburgh.jpg" alt="Summerhall" width="594px" />
 
 [Photo credit - STV Edinburgh](http://nfs.stvfiles.com/imagebase/166/623x349/166412-summerhall-edinburgh.jpg)
 
@@ -13,7 +13,7 @@ A little over a week ago I had the pleasure of speaking at [Scotland.js](http://
 
 ## My talk
 
-Being my first *proper speaking engagement*, I was very nervous in the run up to the event. Its no secret that public speaking is one of man's [top phobias](http://www.statisticbrain.com/fear-phobia-statistics/), and I guess I'm no different in that respect.
+Being my first _proper speaking engagement_, I was very nervous in the run up to the event. Its no secret that public speaking is one of man's [top phobias](http://www.statisticbrain.com/fear-phobia-statistics/), and I guess I'm no different in that respect.
 
 Anyhow I'm happy to report that my talk went down well, and I received some great comments afterwards from a handful of attendees which was very much appreciated. It managed to provoke some interesting discussion in the Q&A session and later on in the pub too!
 
@@ -39,4 +39,4 @@ Also for the support that my friends and colleagues in [Sage](http://uk.sageone.
 
 ## Talk
 
-<iframe src="http://player.vimeo.com/video/68526881" width="500" height="161" frameborder="0"> </iframe>
+<iframe src="https://player.vimeo.com/video/68526881" width="500" height="161" frameborder="0"> </iframe>
