@@ -6,4 +6,4 @@ metaDataFormat = "toml"
 pygmentsUseClasses = true
 
 [permalinks]
-posts = "/posts/:year/:month/:day/:slug/"
+posts = "/:year/:month/:day/:slug"

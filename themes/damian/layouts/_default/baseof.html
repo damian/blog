@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <div id="main">
+      {{ partial "navigation.html" . }}
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    </div>
+    {{ partial "tracking.html" . }}
+  </body>
+</html>

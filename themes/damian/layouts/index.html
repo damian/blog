@@ -2,7 +2,8 @@
 <html lang="en">
   {{ partial "head.html" . }}
   <body>
-    <main>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <div id="main">
       {{ partial "navigation.html" . }}
       <header>
         <div class="wrapper">
@@ -10,18 +11,18 @@
           {{ .Content }}
         </div>
       </header>
-      <ul class="archive">
-      {{ range .Data.Pages }}
-        {{ if .Title }}
-          <li>
-            <div>{{ .Date.Format "January 2 2006" }}</div>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
+      <ul id="main-content" class="archive">
+        {{ range where .Site.RegularPages "Section" "posts" }}
+          {{ if .Title }}
+            <li>
+              <div>{{ .Date.Format "January 2 2006" }}</div>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+          {{ end }}
         {{ end }}
-      {{ end }}
       </ul>
       {{ partial "footer.html" . }}
-    </main>
+    </div>
     {{ partial "tracking.html" . }}
   </body>
 </html>

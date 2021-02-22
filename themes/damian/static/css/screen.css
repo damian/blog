@@ -10,26 +10,43 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  border-top: 4px solid #A212D1;
+  border-top: 4px solid #a212d1;
   color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
+    sans-serif;
   font-size: 21px;
   line-height: 36px;
   text-rendering: optimizeLegibility;
 }
 
-main {
+#main {
   display: grid;
-  grid-template-columns: [full-start] minmax(10px, 1fr) [main-start] minmax(320px, 700px) [main-end] minmax(10px, 1fr) [full-end];
+  grid-template-columns:
+    [full-start] minmax(10px, 1fr) [main-start] minmax(320px, 700px)
+    [main-end] minmax(10px, 1fr) [full-end];
 }
 
-main > * {
+#main > * {
   grid-column: main;
 }
 
-main header {
+#main header {
   grid-column: full;
   padding: 150px 10px;
+}
+
+.skip-link {
+  background: #12D1A2;
+  position: absolute;
+  overflow: hidden;
+  left: -9999px;
+  top: 4px;
+  width: 100%;
+  outline: 0;
+}
+
+.skip-link:focus {
+  left: 0;
 }
 
 .wrapper {
@@ -85,7 +102,7 @@ article img {
 
 header {
   padding: 150px 0;
-  background: #FAFAFA;
+  background: #fafafa;
   margin-bottom: 120px;
 }
 
@@ -107,9 +124,9 @@ article code {
 }
 
 article blockquote {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 20px;
-  border-left: 4px solid #A212D1;
+  border-left: 4px solid #a212d1;
 }
 
 nav ul,
@@ -125,7 +142,7 @@ footer {
 }
 
 footer li:after {
-  content: " / ";
+  content: ' / ';
   opacity: 0.3;
   padding: 0 20px;
   display: inline-block;
@@ -176,7 +193,7 @@ footer li:last-child:after {
 
 article p code,
 article li code {
-  color: #00CC80;
+  color: #00cc80;
 }
 
 article pre code {
@@ -206,3 +223,6 @@ article pre code {
   }
 }
 
+#til li {
+  padding-bottom: 26px;
+}

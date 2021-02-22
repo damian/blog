@@ -1,26 +1,17 @@
-<!doctype html>
-<html lang="en">
-  {{ partial "head.html" . }}
-  <body>
-    <main>
-      {{ partial "navigation.html" . }}
-        <header>
-          <div class="wrapper">
-            <h1>{{ .Title }}</h1>
-            <div class="meta">{{ .Date.Format "January 2 2006" }}</div>
-          </div>
-        </header>
-        <article>{{ .Content }}</article>
-        <div class="pagination">
-          {{ if .PrevInSection }}
-            <a href="{{ .PrevInSection.Permalink }}">&lsaquo; Older</a>
-          {{ end }}
-          {{ if .NextInSection }}
-            <a href="{{ .NextInSection.Permalink }}">Newer &rsaquo;</a>
-          {{ end }}
-        </div>
-      {{ partial "footer.html" . }}
+{{ define "main" }}
+  <header>
+    <div class="wrapper">
+      <h1>{{ .Title }}</h1>
+      <div class="meta">{{ .Date.Format "January 2 2006" }}</div>
     </div>
-    {{ partial "tracking.html" . }}
-  </body>
-</html>
+  </header>
+  <article id="main-content">{{ .Content }}</article>
+  <div class="pagination">
+    {{ if .PrevInSection }}
+      <a href="{{ .PrevInSection.Permalink }}">&lsaquo; Older</a>
+    {{ end }}
+    {{ if .NextInSection }}
+      <a href="{{ .NextInSection.Permalink }}">Newer &rsaquo;</a>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <header>
+    <div class="wrapper">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </header>
+  <main id="main-content">
+    <ul id="til">
+      {{ range .Pages }}
+        {{ if .Title }}
+          <li id="{{ anchorize .Title }}">
+            <a href="#{{ anchorize .Title }}">#TIL</a>
+            <span class="meta">{{ .Date.Format "January 2, 2006" }}</span>
+            <div>{{ .Content }}</div>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}

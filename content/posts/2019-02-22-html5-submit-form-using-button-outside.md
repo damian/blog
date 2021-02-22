@@ -3,14 +3,13 @@ title = "HTML5 form attribute"
 date = "2019-02-22"
 +++
 
-I've been doing web development professionally for over a decade now and every
-now and again I learn something new that pleasantly surpises me. The [HTML5 form
+I've been doing web development for over a decade now and every
+now and again I learn something new that surpises me. The [HTML5 form
 attribute](https://caniuse.com/#feat=form-attribute) whilst being very simple,
 is one of those things.
 
 In a nutshell it enables a **form control outside the form to act as if it's
-inside** by virtue of tying them together with an ID and a corresponding form
-attribute.
+inside** by tying them together with an ID and a corresponding form attribute.
 
 I've put together a quick example below to show how this can be particularly
 useful when it comes to submitting a form from somewhere else on the page
