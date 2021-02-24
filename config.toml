@@ -4,6 +4,8 @@ title = "Damian Nicholson"
 theme = "damian"
 metaDataFormat = "toml"
 pygmentsUseClasses = true
+pygmentsCodefences = true
+pygmentsStyle = "monokailight"
 
 [permalinks]
 posts = "/:year/:month/:day/:slug"

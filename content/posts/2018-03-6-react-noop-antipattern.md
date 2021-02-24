@@ -10,7 +10,7 @@ same state as where they last left it. The standard React pattern is to pass in
 callback to the parent component, which is invoked at right time in the event
 lifecycle.
 
-{{< highlight jsx >}}
+```js
 const AccountPage = () => {
   const handleTabClick = (index) => {
     // Some AJAX here
@@ -24,13 +24,13 @@ const AccountPage = () => {
     </Tabs>
   );
 }
-{{< / highlight >}}
+```
 
 Digging in to the underlying implementation of the `Tabs` stateful component
 generally reveals some code that looks like this. Notice the part where the
 optional callback is invoked if one is declared.
 
-{{< highlight javascript >}}
+```js
   handleClick = (e, index) => {
     e.preventDefault();
 
@@ -42,7 +42,7 @@ optional callback is invoked if one is declared.
       this.props.onChange(index);
     }
   }
-{{< / highlight >}}
+```
 
 I'm not overly fond of this approach for a few reasons:
 
@@ -59,7 +59,7 @@ I'm not overly fond of this approach for a few reasons:
 For these reasons **I prefer the following `noop` anti-pattern**, which allows us to
 remove the if statement and keep the control flow clean and simple!
 
-{{< highlight javascript >}}
+```js
 const noop = () => {};
 
 class Tabs extends React.Component {
@@ -78,4 +78,4 @@ class Tabs extends React.Component {
   }
   ...
 }
-{{< / highlight >}}
+```

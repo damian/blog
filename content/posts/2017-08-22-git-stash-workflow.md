@@ -25,7 +25,7 @@ This is subjective, but recalling the feature branch previously worked on was a 
 
 ## Two git commands are all that's needed
 
-With the `git stash` workflow, you'll only ever have to recall two commands, namely `git stash save -u`. The `-u` is very important as this ensures that any untracked files are also added to the stash contents. The second command being `git stash apply` which reverts back to the exact same state prior to running `git stash save -u`. Untracked files remain untracked as you'd expect it.
+With the `git stash` workflow, you'll only ever have to recall two commands, namely `git stash save -u`. The `-u` is important as this ensures that any untracked files are also added to the stash contents. The second command being `git stash apply` which reverts back to the same state prior to running `git stash save -u`. Untracked files remain untracked as you'd expect it.
 
 **Note**: Never ever use `git stash pop`.
 

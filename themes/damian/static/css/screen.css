@@ -74,7 +74,14 @@ nav li {
 a {
   color: #000;
   font-weight: 700;
-  text-decoration: none;
+}
+
+a:focus {
+  outline: 4px solid #d1a212;
+}
+
+a:hover {
+  color: #12d1a2;
 }
 
 .meta {
@@ -85,12 +92,6 @@ a {
 article {
   display: grid;
   grid-row-gap: 26px;
-}
-
-.archive a:hover,
-article a:hover,
-article a:focus {
-  text-decoration: underline;
 }
 
 article img {
@@ -119,7 +120,7 @@ article li {
   line-height: 45px;
 }
 
-article code {
+p code {
   font-family: Menlo, Consolas, monospace;
 }
 
@@ -166,7 +167,6 @@ footer li:last-child:after {
   font-weight: 700;
   line-height: 59px;
   letter-spacing: -2px;
-  text-decoration: none;
 }
 
 .meta,
@@ -182,18 +182,9 @@ footer li:last-child:after {
   margin-bottom: 26px;
 }
 
-.highlight {
-  overflow-x: scroll;
-  background: #f8f8f8;
-}
-
-.chroma {
-  padding: 20px;
-}
-
-article p code,
+p code,
 article li code {
-  color: #00cc80;
+  color: #f25a00;
 }
 
 article pre code {
@@ -225,4 +216,52 @@ article pre code {
 
 #til li {
   padding-bottom: 26px;
+}
+
+.highlight {
+  padding-top: 40px;
+}
+
+.chroma {
+  padding: 20px;
+}
+
+.token.comment {
+  color: #9f9f8f;
+}
+
+.token.tag .token.attr-name,
+.token.string {
+  color: #f25a00;
+}
+
+.token.boolean,
+.token.keyword {
+  color: #28c6e4;
+}
+
+.token.tag,
+.token.operator {
+  color: #f92672;
+}
+
+.token.tag .token.attr-value,
+.token.function {
+  color: #6aaf19;
+}
+
+.token.number {
+  color: #ae81ff;
+}
+
+.token.parameter {
+  color: #fd971f;
+}
+
+.token.punctuation {
+  color: #272822;
+}
+
+.gist {
+  overflow: hidden;
 }

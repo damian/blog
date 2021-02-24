@@ -9,7 +9,7 @@
       {{ range .Pages }}
         {{ if .Title }}
           <li id="{{ anchorize .Title }}">
-            <a href="#{{ anchorize .Title }}">#TIL</a>
+            <a href="#{{ anchorize .Title }}">#{{ range .Params.Tags }}{{ . }}{{ end }}</a>
             <span class="meta">{{ .Date.Format "January 2, 2006" }}</span>
             <div>{{ .Content }}</div>
           </li>

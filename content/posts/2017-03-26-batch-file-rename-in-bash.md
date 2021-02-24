@@ -13,6 +13,6 @@ On the past few occasions, I've used Bash to great effect, though for some reaso
 
 Below is an example of a task that I had to carry out just the other day -- renaming all files with the `.textile` extension to `.md`. It really is trivial.
 
-{{< highlight bash >}}
+```bash
 find . -type f -name '*.textile' | while read f; do mv "$f" "${f/.textile/.md}"; done
-{{< / highlight >}}
+```
