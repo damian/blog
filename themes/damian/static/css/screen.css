@@ -220,10 +220,12 @@ article pre code {
 
 .highlight {
   padding-top: 40px;
+  overflow: hidden;
 }
 
 .chroma {
   padding: 20px;
+  overflow-x: scroll;
 }
 
 .token.comment {
