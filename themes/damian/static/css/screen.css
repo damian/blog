@@ -228,6 +228,10 @@ article pre code {
   overflow-x: scroll;
 }
 
+.chroma::-webkit-scrollbar {
+  display: none;
+}
+
 .token.comment {
   color: #9f9f8f;
 }
