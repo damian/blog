@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ .Site.Title }} CV</title>
+    <title>Damian Nicholson CV</title>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta
@@ -13,6 +13,7 @@
       content="QHmBAOoCMeXcBHwhv8ZRpj0GIirPR5xxXy2bp4-G7E4"
     />
     <link rel="stylesheet" href="/css/cv.css" />
+    <link rel="stylesheet" media="print" href="/css/print.css">
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -28,8 +29,6 @@
     <div class="wrapper">
       <h1>Damian Nicholson</h1>
       <ul class="print">
-        <li>(+44) 7533 982 072</li>
-        <li>hi@damiannicholson.com</li>
         <li>https://github.com/damian</li>
         <li>South Shields, UK</li>
       </ul>
@@ -63,33 +62,67 @@
 
       <h2>Summary</h2>
       <p>
-        I’m an experienced full stack software consultant and team lead with
-        more than a decades worth of experience. I've shipped dozens of
-        projects for startups and multinationals alike using both agile and
-        waterfall methods. I specialise in building rich web applications using
-        a blend of HTML, JavaScript and CSS and React or Angular.
+        I'm a full stack software consultant and team lead with more than a
+        decades worth of experience. I've shipped dozens of projects for
+        startups and multinationals alike using both agile and waterfall
+        methods. I specialise in building rich web applications using a blend
+        of Node.js, Express.js, HTML, JavaScript, CSS, React and GraphQL.
       </p>
 
       <h2>Experience</h2>
 
-      <h3>
-        Contract Frontend Lead @
-        <a href="https://www.conferize.com">Conferize</a>
+      <h3>Contract Node.js Consultant @
+        <a href="https://www.nhsbsa.nhs.uk/">NHS Business Services Authority</a>
       </h3>
       <div class="job-meta">
-        <span class="tenure">May 2015 - Present</span>
+        <span class="tenure">Nov 2020 - Present</span>
         <span class="location">Remote</span>
       </div>
       <ul>
         <li>
-          Spearheaded the latest iteration of Conferize by migrating from a
-          hybrid REST based Rails application using Angular, Backbone.js and
-          CoffeeScript, to a GraphQL powered Single Page Application(SPA) using React, Apollo, ES6 and
-          CSSModules.
+          Took multiple projects from concept through to closed beta by
+          building Express.js based applications using the NHS branded toolkit
+          to provide a similar look and feel across services for end users. All
+          services had penetration testing and auditing performed by a third
+          party company called Intertek to validate their security and robustness.
         </li>
         <li>
-          Responsible for the hiring, growth, and support of the Frontend
-          team and the overall technical direction of the SPA.
+          Implemented user MFA and authorization using the AWS Node.js SDK
+          through AWS Cognito.
+        </li>
+        <li>
+          Wrote a custom email based MFA workflow through AWS Cognito using AWS
+          Lambda.
+        </li>
+        <li>
+          Ensure the application is fully WCAG 2.1 compliant and accessible to
+          AA standards, including undergoing a assessment by the Digital
+          Accessibility Centre(DAC). This is a legal requirement for any
+          digital public service.
+        </li>
+      </ul>
+      <hr />
+
+      <h3>
+        Contract Frontend Team Lead @
+        <a href="https://www.conferize.com">Conferize</a>
+      </h3>
+      <div class="job-meta">
+        <span class="tenure">May 2015 - Nov 2020</span>
+        <span class="location">Remote</span>
+      </div>
+      <ul>
+        <li>
+          Migrated from a hybrid REST based Rails application using Angular,
+          Backbone.js and CoffeeScript, to a GraphQL powered Single Page
+          Application(SPA) using React, Apollo, ES6 and CSSModules to allow for
+          a richer user experience. This included implementing React server
+          side rendering through Express.js for SEO and social sharing.
+        </li>
+        <li>
+          Responsible for the hiring, growth, and support of the 6 strong
+          frontend team of developers from all across Europe and the overall
+          technical direction of the application.
         </li>
         <li>
           Enabled the company to IPO on Nasdaq First North in May 2017 by
@@ -128,8 +161,9 @@
           component platform to be used across all Sage One products.
         </li>
         <li>
-          Proactively brought in and took over the development, maintenance of the Sage One Marketing website
-          for a year, before hiring an internal team to continue this work.
+          Proactively brought in and took over the development, maintenance of
+          the Sage One Marketing website for a year, before hiring an internal
+          team to continue this work.
         </li>
       </ul>
       <hr />
@@ -184,18 +218,21 @@
       </div>
       <ul>
         <li>
-          Worked as the lead on two client facing projects specifically a
-          community based travel website and also a mobile special offer
-          publishing system. In addition to managing the deliverables and
-          ensuring the projects were done on time both of these were built using
-          the ZEND Framework on a LAMP stack.
+          Worked as the lead on two client facing projects - a community based
+          travel website and also a mobile special offer publishing system. In
+          addition to managing the deliverables and ensuring the projects were
+          done on time both of these were built using the ZEND Framework on a
+          LAMP stack.
         </li>
       </ul>
 
       <h2>Technologies</h2>
       <ul class="skills">
         <li>JavaScript</li>
-        <li>HTML</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Redis</li>
+        <li>HTML5</li>
         <li>CSS/3</li>
         <li>CSSModules</li>
         <li>React</li>
@@ -204,14 +241,15 @@
         <li>GraphQL / Apollo</li>
         <li>Flow</li>
         <li>ESLint</li>
-        <li>Jest / Enzyme</li>
-        <li>Node.js</li>
+        <li>Jest / Enzyme / SuperTest</li>
         <li>Ruby on Rails</li>
         <li>Nginx</li>
         <li>Apache</li>
         <li>ElasticSearch</li>
         <li>MongoDB</li>
         <li>MySQL</li>
+        <li>Git / GitHub / GitLab</li>
+        <li>GitLab CI pipeline</li>
       </ul>
 
       <h2>Education</h2>
@@ -234,6 +272,5 @@
         <li>April 2012 - Ten Things You Should Know About Jasmine @ JavaScript North East</li>
       </ul>
     </div>
-    {{ partial "tracking.html" . }}
   </body>
 </html>
